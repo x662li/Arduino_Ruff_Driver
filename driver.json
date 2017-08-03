@@ -1,0 +1,106 @@
+{
+    "models": [],
+    "inputs": {
+        "uart": {
+            "type": "uart",
+            "args": {
+                "baudRate": 57600,
+                "stopBits": 1,
+                "dataBits": 8,
+                "parity": "none",
+                "flowControl": "none"
+            }
+        }
+    },
+    "outputs": {
+        "adc-0": {
+            "type": "adc"
+        },
+        "adc-1": {
+            "type": "adc"
+        },
+        "adc-2": {
+            "type": "adc"
+        },
+        "adc-3": {
+            "type": "adc"
+        },
+        "adc-4": {
+            "type": "adc"
+        },
+        "adc-5": {
+            "type": "adc"
+        },
+        "gpio-13": {
+            "type": "gpio"
+        },
+        "gpio-3": {
+            "type": "gpio"
+        },
+        "gpio-4": {
+            "type": "gpio"
+        },
+        "gpio-5": {
+            "type": "gpio"
+        },
+        "gpio-6": {
+            "type": "gpio"
+        },
+        "gpio-7": {
+            "type": "gpio"
+        },
+        "gpio-8": {
+            "type": "gpio"
+        },
+        "gpio-12": {
+            "type": "gpio"
+        },
+        "gpio-2": {
+            "type": "gpio"
+        },
+        "gpio-9": {
+            "type": "gpio"
+        },
+        "gpio-10": {
+            "type": "gpio"
+        },
+        "gpio-11": {
+            "type": "gpio"
+        },
+        "pwm-3": {
+            "type": "pwm",
+            "args": {
+                "pin": 9
+            }
+        },
+        "uart-0": {
+            "type": "uart",
+            "args": {
+                "portId": "SW_SERIAL0",
+                "txPin": 10,
+                "rxPin": 11
+            }
+        },
+        "gnd-1": {
+            "type": "ground"
+        },
+        "gnd-2": {
+            "type": "ground"
+        },
+        "vdd-3": {
+            "type": "power",
+            "args": {
+                "voltage": "3.3v"
+            }
+        },
+        "vdd-5": {
+            "type": "power",
+            "args": {
+                "voltage": "5v"
+            }
+        },
+        "i2c-0": {
+            "type": "i2c"
+        }
+    }
+}

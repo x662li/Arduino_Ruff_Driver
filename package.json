@@ -1,0 +1,12 @@
+{
+    "name": "firmata",
+    "version": "0.1.6",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {},
+        "version": 1,
+        "devDependencies": {}
+    }
+}
